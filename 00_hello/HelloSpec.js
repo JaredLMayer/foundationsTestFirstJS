@@ -1,10 +1,9 @@
-// talk about function
 describe("Hello", function() {
-  it("says hello", function() {
-    expect(hello()).toEqual(FILL_ME_IN);
-  });
+it("says 'Hello!'", function() {
+  expect(hello()).toEqual("Hello!");
+});
 
-  it("says hello to someone", function() {
-    expect(hello("Fred")).toEqual(FILL_ME_IN);
+  it("says 'Hello, Scott!' if passed a name", function() {
+    expect(hello("Scott")).toEqual("Hello, Scott")
   });
 });
