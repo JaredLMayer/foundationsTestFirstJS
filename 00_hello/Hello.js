@@ -1,10 +1,8 @@
 function hello(name){
-	if(typof name === "undefined"){
+	if(typeof name === "undefined"){
 		return "Hello!";
 	} else {
-		return "Hello, " + name;
-	});
-
-
-});
+		return "Hello, " + name + "!";
+	};
+};
 //
