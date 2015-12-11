@@ -1,6 +1,3 @@
-# foundations
+#Foundations Test First JS Exercises 
 
-This is where I will house all solutions to assignments during the foundations section at Fullstack Academy.
-# foundations
-# foundations
-# foundations
+00_hello - 05_functions completed. 
