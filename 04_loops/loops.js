@@ -1,3 +1,64 @@
+// function repeat(string, times){
+// 	var result = ""
+// 	for(i=1; i<=times; i++){
+// 		result += string
+// 	}
+// 	return result; 
+// };
+
+// function sum(arr){
+// 	var result = 0
+// 	for(i=0; i<arr.length; i++){
+// 		result += arr[i]
+// 	}
+// 	return result; 
+// };
+
+// function gridGenerator(num){
+// 	if(num == 0){
+// 		return "";
+// 	}
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function repeat(string, num) {
 	var result = "";
 	for (i=1; i<=num; i++) {
