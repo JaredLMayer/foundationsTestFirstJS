@@ -1,78 +1,30 @@
-//Redo for practice 
-function setPropertiesOnObjLiteral(obj) {
-	// object = {};
+function setPropertiesOnObjLiteral(obj){
 	obj.x = 7;
-	obj['y'] = 8;
+	obj.y = 8;
 	obj.onePlus = function(num) {
 		num += 1
-	return num 
+		return num
 	};
 };
 
-function setPropertiesOnArrayObj(arr) {
-	arr.hello = function() {
+function setPropertiesOnArrayObj(arr){
+	arr.hello = function(){
 		return "Hello!"
 	};
 	arr['full'] = "stack";
-	arr[0] = 5;
-	arr.twoTimes = function(num) {
-		num *= 2
-		return num
+	arr[0] = 5
+	arr.twoTimes = function(number){
+		return number*2
 	};
 };
 
-function setPropertiesOnFunctionObj(obj) {
-	obj.year = 2015;
-	obj.divideByTwo = function(num) {
-		num /= 2
-		return num
+function setPropertiesOnFunctionObj(functionObject){
+	functionObject.year = 2015;
+	functionObject.divideByTwo = function(num){
+		return num/2
 	};
-	obj.prototype.helloWorld = function() {
+	functionObject.prototype.helloWorld = function(){
 		return "Hello World"
 	};
-
+	return "I am a function object, all functions are objects! Functions can have their own properties too!";
 };
-
-
-
-
-
-
-
-
-
-
-
-
-//First time around 
-
-// function setPropertiesOnObjLiteral(obj){
-// 	obj.x = 7;
-// 	obj.y = 8;
-// 	obj.onePlus = function(num) {
-// 		num += 1
-// 		return num
-// 	};
-// };
-
-// function setPropertiesOnArrayObj(arr){
-// 	arr.hello = function(){
-// 		return "Hello!"
-// 	};
-// 	arr['full'] = "stack";
-// 	arr[0] = 5
-// 	arr.twoTimes = function(number){
-// 		return number*2
-// 	};
-// };
-
-// function setPropertiesOnFunctionObj(functionObject){
-// 	functionObject.year = 2015;
-// 	functionObject.divideByTwo = function(num){
-// 		return num/2
-// 	};
-// 	functionObject.prototype.helloWorld = function(){
-// 		return "Hello World"
-// 	};
-// 	return "I am a function object, all functions are objects! Functions can have their own properties too!";
-// };
