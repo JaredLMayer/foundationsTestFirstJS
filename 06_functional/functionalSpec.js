@@ -109,7 +109,6 @@ describe("every", function() {
   var isEven = function(num) {
     return num % 2 === 0;
   };
-  
   var getValue = function(i) { 
     return i; 
   };
