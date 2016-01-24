@@ -37,6 +37,17 @@ var type = function(type) {
 
 //Still having issues with the native string conversion spec. Come back to this for sake of time.
 var stringify = function(input) {
+	// Specific conditionals for undefined, null, boolean, number, and functions are redundant. The only special cases
+	// are Objects, Strings, Arrays.
+	// For all other data types, return a coerced version,
+	
+	// ex: 
+	// if Object
+	// if String
+	// if Array
+	// if none of the above, type coerce the input value
+	// return input + "";
+	
 	if (type(input) == 'Undefined') {
 		return 'undefined'
 	}
